@@ -1,0 +1,108 @@
+html,
+button,
+input,
+select,
+textarea {
+  color: #444;
+}
+
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  font-family: Georgia;
+  color: #444;
+}
+
+#wrapper {
+  max-width: 900px;
+  min-width: 320px;
+  padding: 10px 80px;
+  margin: 80px auto;
+  background: #f5f5f5;
+  border: solid #666;
+  border-width: 8px 0 3px 0;
+  border-radius: 4px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture {
+  width: 25%;
+  height: auto;
+  border: 1px #ccc;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.description {
+  color: #000;
+  font-style: italic;
+}
+
+.description h1 {
+  letter-spacing: 3px;
+  font-size: 48px;
+  font-style: normal;
+}
+
+.section {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 20px 0 0;
+}
+
+.section h3 {
+	font-style: italic;
+	font-size: 30px;
+  margin-right: 120px;
+  padding-right: 0%;
+  max-width: 15%;
+}
+
+.section dl {
+	width: 70%;
+  margin-left: 100px;
+}
+
+.section dl dt {
+	font-size: 22px;
+}
+
+.section dl dt h4 {
+	margin-bottom: 0;
+}
+
+.section dl dt h5 {
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+
+.section dl dd {
+	font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
