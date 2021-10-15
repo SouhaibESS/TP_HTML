@@ -1,0 +1,83 @@
+@media only screen and (max-width: 770px) {
+  html {
+    font-size: 70%;
+  }
+  #wrapper {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  header {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .description h1 {
+    font-size: 30px;
+  }
+
+  .section {
+    font-size: 60%;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  .section h3 {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .section dl {
+    margin-top: -30px;
+    margin-left: 40%;
+  }
+
+  .section dl dt h4 {
+    font-size: 15px;
+  }
+
+  .section dl dt h5 {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  body {
+    font-size: 90%;
+  }
+
+  #wrapper {
+	  margin: 10px auto;
+  }
+
+  .description h1 {
+    font-size: 20px;
+  }
+
+  .picture {
+    height: 200px;
+  }
+
+  .section {
+	  flex-direction: column;
+  }
+
+  .section h3 {
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .section dl {
+    margin-top: -50px;
+    margin-left: 40%;
+  }
+
+  .section dl dt h4 {
+    font-size: 13px;
+  }
+
+  .section dl dt h5 {
+    font-size: 10px;
+  }
+}

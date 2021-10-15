@@ -33,9 +33,11 @@ header {
 }
 
 .picture {
-  width: 25%;
-  height: auto;
+  width: auto;
+  height: 300px;
   border: 1px #ccc;
+  margin: auto;
+  margin-left: auto;
   border-radius: 3px;
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -50,6 +52,7 @@ footer {
 .description {
   color: #000;
   font-style: italic;
+  padding-right: 10px;
 }
 
 .description h1 {
